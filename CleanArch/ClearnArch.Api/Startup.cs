@@ -1,5 +1,6 @@
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
+using ClearnArch.Api.Configurations;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -43,6 +44,7 @@ namespace ClearnArch.Api
 
             services.AddMediatR(typeof(Startup));
 
+            services.RegisterAutoMapper();
 
             RegisterServices(services);
         }

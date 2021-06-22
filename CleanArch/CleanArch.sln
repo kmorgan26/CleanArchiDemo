@@ -17,17 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{849A59B4-4611-474F-BD4F-75997FD2FFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC", "CleanArchMVC\CleanArchMVC.csproj", "{B5BD752D-5099-4DFF-BA02-36E3BF1E60F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC", "CleanArchMVC\CleanArchMVC.csproj", "{B5BD752D-5099-4DFF-BA02-36E3BF1E60F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{EF0B57F9-BD0B-48A9-86D0-1C9D1F775E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{EF0B57F9-BD0B-48A9-86D0-1C9D1F775E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{FE187271-4DAC-401F-89ED-7D59915D036C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{FE187271-4DAC-401F-89ED-7D59915D036C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{CD9CAA30-3E51-4B9E-AE33-6062D8DDAB7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{B7722772-B674-48B4-9AA0-070286D34B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Bus", "CleanArch.Infra.Bus\CleanArch.Infra.Bus.csproj", "{77A043B7-346D-415D-860B-C2268487B577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Bus", "CleanArch.Infra.Bus\CleanArch.Infra.Bus.csproj", "{77A043B7-346D-415D-860B-C2268487B577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{77A043B7-346D-415D-860B-C2268487B577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A043B7-346D-415D-860B-C2268487B577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A043B7-346D-415D-860B-C2268487B577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{EF0B57F9-BD0B-48A9-86D0-1C9D1F775E24} = {D8728080-FB33-4CC6-B100-51F867250E90}
 		{FE187271-4DAC-401F-89ED-7D59915D036C} = {AB895305-BA5E-424C-AF87-A31375909C03}
 		{77A043B7-346D-415D-860B-C2268487B577} = {CD9CAA30-3E51-4B9E-AE33-6062D8DDAB7C}
+		{F8B9C319-A8D6-4BAC-8AF0-017D4028F8EF} = {3068ACC6-DBF1-49BD-AE97-76091A2669ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE314080-2653-4F4B-82AB-953F62367045}
